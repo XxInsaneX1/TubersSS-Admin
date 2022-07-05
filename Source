@@ -11,4 +11,4 @@ wait(3)
 notif('Unable to load assets. Error code: 266.',3)
 wait(3)
 notif('Tss is still in development! It is not ready, this is why you are recieving this message.')
-end)
+end
