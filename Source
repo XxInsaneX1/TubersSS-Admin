@@ -6,9 +6,7 @@ local function notif(str,dur)
 		Duration = dur or 1
 	})
 end
-notif('Loading assets...',3)
-wait(3)
-notif('Unable to load assets. Error code: 266.',3)
-wait(3)
-notif('Tss is still in development! It is not ready, this is why you are recieving this message.',10)
+notif('Tss-Admin is still in development, so we will load infinite yield instead.',10)
+wait(11)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
